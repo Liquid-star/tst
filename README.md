@@ -19,6 +19,7 @@ $$
 where $s_{j,i}$ represents the success or failure of the $i$-th sub-task in the $j$-th task.
 
 **CGT (Conditioned CSR based on Ground Truth)**: CGT further corrects CSR by introducing ground truth weighting, accounting for biases in path difficulty. The formula is:
+
 $$
 CGT = \sum_{j=0}^{M}\sum_{i=0}^{N} \frac{P_i}{P} \cdot \frac{s_{j,i} \left(1 + (N - 1)s_{j,i-1}\right)}{M \cdot N}
 $$
