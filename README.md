@@ -34,5 +34,5 @@ $$
 
 where $NE_{j,i}$ and $GT_{j,i}$ represent the NE and ground truth distance for the $i$-th sub-task in the $j$-th task, and $D_s$ is the distance threshold for determining navigation success.
 
-Final ranking: 0.4*TAR + 0.2*ISR + 0.2*CSR + 0.2*CGT.
+Final ranking: 0.4\*TAR + 0.2\*ISR + 0.2\*CSR + 0.2\*CGT.
 
